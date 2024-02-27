@@ -11,18 +11,18 @@ function CreateLocalizationInfo()
 		Strings.PluginName = "Theater";
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
 		Strings.PluginAltDesable = "Alt-Taste deaktiviert";
-		Strings.PluginWindowShow = "Schaufenster.";
-		Strings.PluginWindowHide = "Verstecke das Fenster.";
-		Strings.PluginHelp = " *** Yul Theaterassistent ***\n\n" ..
-		"/Yut show Zeigen Sie das Fenster an\n" ..
-		"/Yut hide Verstecke das Fenster\n" ..
-		"/Yut alt - ALT-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
-		"/Yut toggle - Fenster ein-oder ausblenden\n" ..
-		"Die Zahlen geben die Reihenfolge des Auftretens an\n\n" ..
-		"Sie k\195\182nnen Emotes nach Belieben ziehen und ablegen";
-		Strings.PluginChar1 = "Held";
-		Strings.PluginChar2 = "Bedeuten";
-		Strings.PluginChar3 = "Diener";
+		Strings.PluginWindowShow = "Fenster wird angezeigt";
+		Strings.PluginWindowHide = "Fenster wird ausgeblendet";
+		Strings.PluginHelp = "\n *** Yul Theater Hilfe ***\n" ..
+		"/yut show - Zeigt das Fenster an.\n" ..
+		"/yut hide - Blendet das Fenster aus.\n" ..
+		"/yut alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+		"/yut toggle - Fenster anzeigen/ausblenden.\n\n" ..
+		"Die Zahlen geben die Reihenfolge des Auftretens an.\n" ..
+		"Du kannst die Emotes nach Belieben ziehen und ablegen.";
+		Strings.PluginChar1 = "Hauptdarsteller";
+		Strings.PluginChar2 = "B\195\182sewicht";
+		Strings.PluginChar3 = "Statist";
 
 elseif Turbine.Engine.GetLanguage() == Turbine.Language.French then
 		Strings.PluginName = "Theatre";
